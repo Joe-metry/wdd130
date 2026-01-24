@@ -1,4 +1,44 @@
+:root {
+    --primary-color: darkblue;
+    --text-light: white;
+    --border-color: black;
+    --shadow-color: gray;
+
+    --padding-small: 2px;
+    --padding-medium: 10px;
+    --padding-large: 20px;
+
+    --image-width: 150px;
+}
+
 nav {
+    background: var(--primary-color);
+    padding: var(--padding-medium);
+}
+
+nav a {
+    color: var(--text-light);
+    display: block;
+    padding: var(--padding-large);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+img {
+    width: var(--image-width);
+    height: auto;
+    border: 1px solid var(--border-color);
+    padding: var(--padding-small);
+    box-shadow: 0 0 30px var(--shadow-color);
+}
+
+p {
+    padding: var(--padding-medium);
+}
+
+/* nav {
     background: darkblue;
     padding: 10px;
 }
@@ -23,4 +63,4 @@ img {
 
 p {
     padding: 10px;
-}
+} */
