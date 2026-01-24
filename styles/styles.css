@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: darkblue;
     --text-light: white;
@@ -64,3 +70,14 @@ img {
 p {
     padding: 10px;
 } */
+
+/* Comments for my class selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: bisque;
+    color: black;
+
+}
