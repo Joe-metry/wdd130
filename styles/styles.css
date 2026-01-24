@@ -1,4 +1,4 @@
-/* * {
+* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ img {
 
 p {
     padding: var(--padding-medium);
-} */
+}
 
 /* nav {
     background: darkblue;
