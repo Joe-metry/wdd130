@@ -8,7 +8,7 @@
  }
 
  p {
-     padding: 10px;
+     padding: 0;
  }
 
  nav a {
@@ -18,7 +18,7 @@
  }
 
  nav {
-     background: darkblue;
+     background-color: darkblue;
      padding: 10px;
  }
 
@@ -98,8 +98,9 @@ p {
  aside {
      width: 20em;
      margin: 1em;
-     border: 1px solid rgb(0 0 0 / 0.2);
-     padding: 1 em;
+     border: 1em solid rgb(0 0 0 0.2);
+     /* using the rgba */
+     padding: 1em;
      background-color: #eee;
      color: #333;
      text-align: center;
