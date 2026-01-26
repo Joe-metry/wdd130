@@ -63,6 +63,10 @@ h1 {
     background-color: var(--accent1-color) color(#fff red green blue)
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 125px;
