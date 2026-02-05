@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form - User Poll</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Questions</legend>
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option>Chrome</option>
+                        <option>Brave</option>
+                        <option>Edge</option>
+                        <option>Firefox</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div class="form-item">
+                    <label for="places">List the places you have lived:</label>
+                    <textarea id="places" name="places" rows="3"
+                      placeholder="Ikoyi, Lagos, Por-Harcourt Nigeria, Calabar Nigeria"></textarea>
+                </div>
+            </fieldset>
+
+            <span><button type="submit">Submit Poll</button></span>
+
+        </form>
+    </main>
+
+    <footer>
+        ©2026 | HTML Form - User Poll Activity | Ubi, Joseph
+    </footer>
+
+</body>
+
+</html>
