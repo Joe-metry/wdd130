@@ -22,6 +22,11 @@ Root variables:root {
     box-sizing: border-box;
 }
 
+header.site-header {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+
 /* Body */
 body {
     font-family: var(--body-font);
