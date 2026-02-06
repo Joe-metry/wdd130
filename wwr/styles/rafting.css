@@ -180,7 +180,12 @@ footer {
 }
 
 /* contact us page */
-/* Contact Page Layout */
+
+.map {
+    border: 0;
+    width: 100%;
+    height: 300px;
+}
 
 .contact-layout {
     display: grid;
