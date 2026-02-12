@@ -1,4 +1,53 @@
 /* ===============================
+   GLOBAL RESET
+================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* ===============================
+   HEADER / NAVIGATION
+================================= */
+
+header {
+    background-color: #2f5d50;
+    padding: 1rem 2rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
    HERO SECTION
 ================================= */
 
@@ -112,4 +161,214 @@
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+/* Trips */
+
+.trips-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #e6f2f0;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.trip-card {
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.trip-table-section {
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: #2f5d50;
+    color: white;
+}
+
+footer {
+    background-color: #2f5d50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* ===============================
+   ABOUT PAGE
+================================= */
+
+.history {
+    padding: 3rem 2rem;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.history-content img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.adventures {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+}
+
+.adventures img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.adventures figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* ===============================
+   CONTACT PAGE
+================================= */
+
+.contact-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    background-color: #2f5d50;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #1f4037;
+}
+
+/* Employees */
+
+.employees {
+    padding: 3rem 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.employees img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ===============================
+   FOOTER SOCIAL MEDIA
+================================= */
+
+.socialmedia {
+    margin-top: 1rem;
+}
+
+.socialmedia img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.mission {
+    padding: 3rem 2rem;
+}
+
+.history {
+    padding: 3rem 2rem;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.history-content img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.adventures {
+    padding: 3rem 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+}
+
+.adventures img {
+    width: 100%;
+    border-radius: 8px;
 }
