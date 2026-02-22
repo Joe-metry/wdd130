@@ -1,0 +1,113 @@
+body {
+    background: url("../images/blog-background-image.jpg");
+    background-size: cover;
+    /* fills screen */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* centers image */
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+img {
+    margin: 40px 0px 0px 0px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid wheat;
+}
+
+/* Nav styling */
+
+ul {
+    padding: 10px;
+    background: rgba(245, 222, 179, 0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+li a {
+    text-decoration: none;
+    background: rgb(189, 172, 137);
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+li a:hover {
+    color: rgb(209, 3, 3);
+    background: rgb(193, 191, 191);
+    /* simple hover effect */
+}
+
+details {
+    background: wheat;
+    padding: 5px 10px;
+    margin: 5px 0px auto;
+}
+
+details summary {
+    font-weight: bold;
+}
+
+details:hover {
+    color: rgb(209, 3, 3);
+    background: rgb(193, 191, 191);
+}
+
+details button:hover {
+    color: rgb(209, 3, 3);
+    background: rgb(193, 191, 191);
+}
+
+footer {
+    text-align: center;
+    background: rgb(228, 220, 220);
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 10px 0 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    /* adjust size if needed */
+    height: 30px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    /* small hover animation */
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 35px;
+        padding: 5px;
+    }
+}
