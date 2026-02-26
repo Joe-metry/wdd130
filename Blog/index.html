@@ -68,8 +68,15 @@
         <p>&copy; 2026 Ubi, Joseph's Blog</p>
     </footer>
     <script>
-        $("button").on("click", function () {
-            alert("you liked this article!");
+        // $("button").on("click", function () {
+        //     alert("you liked this article!");
+        // });
+
+        // Select all buttons and loop through them
+        document.querySelectorAll("button").forEach(button => {
+            button.addEventListener("click", function () {
+                alert("You liked this article!");
+            });
         });
 
     </script>
