@@ -68,6 +68,7 @@ details:hover {
 details button:hover {
     color: rgb(209, 3, 3);
     background: rgb(193, 191, 191);
+    cursor: pointer;
 }
 
 footer {
