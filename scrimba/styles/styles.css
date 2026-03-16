@@ -1,0 +1,125 @@
+body {
+    border: 8px solid #e6e4e4e5;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Science Gothic", "Arial Black", sans-serif;
+}
+
+#head-title {
+    margin: 0;
+    padding-top: 60px;
+    font-size: 4rem;
+}
+
+#head-two {
+    margin-top: 0;
+}
+
+.upper-head {
+    padding: 0;
+    border-bottom: 8px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#lower-head {
+    color: #FFFFFF;
+    border-bottom: 8px solid #EE9025;
+}
+
+#banner-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url('../images/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #EE9025;
+    font-size: larger;
+    font-weight: 900;
+}
+
+#head-text {
+    text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.9);
+
+}
+
+#sub-head {
+    margin: 0 0 36px;
+}
+
+#activity-wrapper {
+    padding-top: 12px;
+    background-color: #EAE4DC;
+}
+
+#fun-activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-card {
+    width: 33.3%;
+
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+#guide-container {
+    display: flex;
+    justify-content: center;
+    /* This centers the card wrapper horizontally */
+    padding: 20px;
+
+}
+
+#guide-card-wrapper {
+    display: flex;
+    gap: 20px;
+    background-color: #e3d5c5;
+    border-bottom: 8px solid #f7dcbf;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+#profile-img {
+    width: 14em;
+    height: 15em;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#tour-card-header {
+    margin: 8px;
+}
+
+#site-footer {
+    background: #f9eddf;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* This centers the UL vertically */
+    justify-content: center;
+    /* This ensures the UL is centered horizontally */
+}
+
+#footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

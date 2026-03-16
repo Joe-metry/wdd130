@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-image {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.nav-logo {
+    height: 32px;
+    padding: 0;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.nav-block {
+    background-color: rgb(128, 131, 131);
+    margin-bottom: 8px;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #0B6FA4;
+}
+
+.heading-just {
+    padding: 0 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.mission {
+    display: flex;
+
+    margin: 0 auto;
+}
+
+p {
+    padding: 0 20px 0px 10px;
+    margin: 0;
+    list-style: 20px;
+}
+
+.mission-stat {
+    width: 50%;
+    margin: 0;
+}
+
+.team-image {
+    border-radius: 10px;
+}
+
+.team-block {
+    width: 50%;
+}
+
+.roles {
+    width: 50%;
+    /* margin: 0 0 10px 10px; */
+    /* margin: 0 auto; */
+}
+
+.role-title {
+    margin: 0;
+}
+
+.role-block {
+    display: flex;
+    text-align: center;
+}
+
+.apply {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: #0B6FA4;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 10px 0 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    /* adjust size if needed */
+    height: 30px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    /* small hover animation */
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 35px;
+        padding: 5px;
+    }
+}
