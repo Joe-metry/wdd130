@@ -6,12 +6,13 @@ let count = 0;
 
 function increment() {
     count = count + 1;
-    countUp.innerText = count;
+    countUp.textContent = count;
 }
 
 function save() {
     let delimiter = " - ";
-    displayWidget.innerText += " " + count + delimiter;
+    displayWidget.textContent += " " + count + delimiter;
+    countUp.textContent = 0;
     count = 0;
 }
 
