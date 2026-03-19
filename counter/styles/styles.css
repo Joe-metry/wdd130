@@ -1,7 +1,7 @@
 #app-body {
     text-align: center;
     width: 300px;
-    height: 450px;
+    height: 470px;
     background-color: bisque;
     margin: 0 auto;
     border: 2px solid burlywood;
@@ -36,8 +36,41 @@
 
 #save-btn {
     background: rgb(150, 95, 56);
+    margin-bottom: 0;
 }
 
 #save-btn:active {
     font-size: 1em;
 }
+
+#count-prompt {
+    margin: 8px 0px 4px;
+    padding-top: 0;
+    font-size: .8em;
+    font-weight: 900;
+}
+
+#display-widget {
+    margin: 0;
+}
+
+#display-prompt {
+    margin-bottom: 64px;
+}
+
+/* #clear-btn {
+    border: 1px solid rgb(55, 53, 53);
+    margin-bottom: 16px;
+    border-radius: 4px;
+    background: rgb(243, 195, 132);
+}
+
+#clear-btn:hover {
+    background-color: maroon;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+#clear-btn:active {
+    font-size: 1.2em;
+} */
